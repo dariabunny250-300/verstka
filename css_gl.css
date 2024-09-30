@@ -64,19 +64,19 @@
      font-size: 1rem;
      line-height: 1.5;
 }
-.theme-pink {
-   background: #FFC0CB;
-   color: #C71585;
+.theme-plum {
+   background: #DDA0DD;
+   color: #FFFFFF;
 }
-.theme-mediumvioletred {
-   background: #C71585;
+.theme-magenta {
+   background: #FF00FF;
    color: #ffffff;
 }
-.theme-palevioletred {
-   background: #DB7093;
+.theme-orchid {
+   background: #DA70D6;
    color: #ffffff;
 }
-.theme-purple {
-   background: #800080;
+.theme-darkmagenta {
+   background: #8B008B;
    color: #FFFFFF;
 }
