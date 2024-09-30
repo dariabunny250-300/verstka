@@ -1,0 +1,122 @@
+* {
+     box-sizing: border-box;
+}
+
+body {
+     background: #ffffff;
+     color: #fff;
+}
+.support-warning {
+     background: #ccb11c;
+     color: #000;
+     display: block;
+     font-family: 'Raleway', sans-serif;
+     font-weight: 700;
+     opacity: 0.95;
+     padding: 3rem;
+     position: fixed;
+     text-align: center;
+     top: 0;
+     left: 0;
+     width: 100%;
+     z-index: 5;
+}
+
+.support-warning a {
+     color: inherit;
+}
+.l-grid {
+     display: flex;
+     flex-wrap: wrap;
+}
+
+.l-grid > .l-grid__item {
+     flex: 1 0 auto;
+}
+
+.l-grid--4x4 > .l-grid__item {
+     width: 25%;
+}
+
+@supports(display: grid) {
+     .support-warning {
+          display: none;
+     }
+.l-grid--4x4 > .l-grid__item {
+         width: auto;
+     }
+     
+.l-grid {
+          display: grid;
+     }
+}
+.l-grid--4x4 {
+     grid-template-columns: repeat(4, 1fr);
+     grid-template-rows: repeat(3, minmax(13rem, 1fr));
+}
+
+.l-span-column-2 {
+     grid-column-start: span 2;
+}
+
+.l-span-row-2 {
+     grid-row-start: span 2;
+}
+
+.l-full-height {
+     min-height: 100vh;
+}
+
+.align-center {
+     align-items: center;
+     justify-content: center;
+}
+
+.content {
+     padding: 3.5rem;
+     max-width: 400px;
+}
+.heading {
+     font-family: 'СВОЙ ШРИФТ ЗАГОЛОВКА', serif;
+     font-size: 1.5rem;
+     font-weight: 700;
+     line-height: 1.2;
+     margin-bottom: 1rem;
+}
+
+.description {
+     font-family: 'arial', sans-serif;
+     font-size: 1rem;
+     line-height: 1.5;
+}
+.theme-goldengatebridge {
+   background: #F24C00;
+   color: #FFFFFF;
+}
+.img-background {
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+     color: #fff;
+}
+.img-background--seeds {
+     background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Cucurbita_moschata_%27Butternut%27_3.jpg/1024px-Cucurbita_moschata_%27Butternut%27_3.jpg');
+color: #FFFFFF;
+}
+.img-background--leaf {
+     background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Copper_Beech_Fagus_sylvatica_f._purpurea_Autumn_Leaves_Closeup_3008px.jpg/1024px-Copper_Beech_Fagus_sylvatica_f._purpurea_Autumn_Leaves_Closeup_3008px.jpg');
+color: #FFFFFF;
+}
+
+.img-background--tree {
+     background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/%D0%91%D0%BE%D0%BB%D0%BE%D1%82%D0%BD%D1%8B%D0%B5_%D0%9A%D0%B8%D0%BF%D0%B0%D1%80%D0%B8%D1%81%D1%8B.jpg/1024px-%D0%91%D0%BE%D0%BB%D0%BE%D1%82%D0%BD%D1%8B%D0%B5_%D0%9A%D0%B8%D0%BF%D0%B0%D1%80%D0%B8%D1%81%D1%8B.jpg');
+color: #FFFFFF;
+}
+.theme-sunset {
+   background: #F9C784;
+   color: #FFFFFF;
+}
+.theme-pumpkin {
+   background: #FC7A1E;
+   color: #FFFFFF;
+}
