@@ -78,7 +78,7 @@ nav ul li:hover ul {
   visibility: visible;
 }
 #wrapper-column {
-width: 145%;
+width: 100%;
 overflow: hidden;
 }
 .column {
@@ -98,7 +98,8 @@ font-family: "arial";
 color: #ffffff;
 }
 footer {
-width: 145%;
+width: 100%;
 background: #b67b78;
 font-family: "arial"
+color: #ffffff;
 }
