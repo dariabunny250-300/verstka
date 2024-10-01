@@ -16,7 +16,7 @@ body {
 }
 .layer-5 {
      animation: animation_fg linear 70s infinite both; 
-	 background: url(https://i.ibb.co/rMv0SmB/1.png) 0 100% repeat-x;
+	 background: url(https://i.postimg.cc/Y0pnTg3V/1.png) 0 100% repeat-x;
 	 z-index: 1;
 	 position: absolute;
 	 bottom: 0;
@@ -27,7 +27,7 @@ body {
 }
 .layer-4 {
      animation: animation_fg linear 60s infinite both; 
-	 background: url(https://i.ibb.co/hVD3c0J/2.png) 0 100% repeat-x;
+	 background: url(https://i.postimg.cc/HLDtfXW2/2.png) 0 100% repeat-x;
 	 z-index: 1;
 	 position: absolute;
 	 bottom: 0;
@@ -38,7 +38,7 @@ body {
 }
 .layer-3 {
      animation: animation_fg linear 55s infinite both; 
-	 background: url(https://i.ibb.co/099LYGh/3.png) 0 100% repeat-x;
+	 background: url(https://i.postimg.cc/Pqjm6HKV/3.png) 0 100% repeat-x;
 	 z-index: 1;
 	 position: absolute;
 	 bottom: 0;
@@ -49,7 +49,7 @@ body {
 }
 .layer-2 {
      animation: animation_fg linear 35s infinite both; 
-	 background: url(https://i.ibb.co/WG4DdNt/4.png) 0 100% repeat-x;
+	 background: url(https://i.postimg.cc/jqFPpPZ7/4.png) 0 100% repeat-x;
 	 z-index: 1;
 	 position: absolute;
 	 bottom: 0;
@@ -60,7 +60,7 @@ body {
 }
 .layer-1 {
      animation: animation_fg linear 35s infinite both; 
-	 background:  url(https://i.ibb.co/8m0tNPc/5.png) 0 100% repeat-x;
+	 background:  url(https://i.postimg.cc/d3kksN4T/5.png) 0 100% repeat-x;
 	 z-index: 1;
 	 position: absolute;
 	 bottom: 0;
@@ -91,9 +91,7 @@ body {
 	 background-size: auto 246px;
 	 animation: animation_object linear 30s infinite both;
 }
-.object-2 {
-     animation: animation_object object-2 linear 30s infinite both;
-}
+
 @keyframes animation_fg {
  0% {
 background-position: 2765px 100%;
