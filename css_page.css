@@ -101,15 +101,15 @@ color: #ffffff;
      color: #fff;
 }
 .img-background--forest {
-     background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://raw.githack.com/dariabunny250-300/verstka/main/forest.jpg');
+     background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe7KQC-e8EZr_qZtN1wCSUcw9mCUyde6nOkQ&s');
 }
 
 .img-background--moss {
-     background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://raw.githack.com/dariabunny250-300/verstka/main/moss.jpg');
+     background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://www.marthastewart.com/thmb/UlQvqPs9NqmFqHyW3ZHEZfWRH6A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/moss-lead-getty-0723-ae32a968a5b74afd85d65a6cd0cab3b8.jpg');
 }
 
 .img-background--mist {
-     background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://raw.githack.com/dariabunny250-300/verstka/main/mist.jpg');
+     background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://78.mchs.gov.ru/uploads/resize_cache/news/2022-03-14/v-sankt-peterburge-ozhidaetsya-tuman_164725414633216250__2000x2000.jpg');
      background-size: cover;
      background-repeat: no-repeat;
      color: #fff;
