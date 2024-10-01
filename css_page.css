@@ -39,11 +39,11 @@ nav li a {
       padding: 21px;
       text-decoration: none;
       font-weight: bold;
-      font-family: "arial";
+      font-family: "Arial";
       color: #ffffff; 
 }
 nav ul li:hover {
-  background-color: #d79c9c;
+  background: #d79c9c;
 }
 nav ul li ul {
   padding: 0;
@@ -78,13 +78,13 @@ nav ul li:hover ul {
   visibility: visible;
 }
 #wrapper-column {
-width: 145%;
+width: 100%;
 overflow: hidden;
 }
 .column {
 float:left;
 background: #a94444;
-width: 50%;
+width: 30%;
 height: 300px;
 font-family: "arial";
 color: #ffffff;
@@ -92,13 +92,13 @@ color: #ffffff;
 .column2 {
 float:left;
 background: #c26767;
-width: 50%;
+width: 30%;
 height: 300px;
 font-family: "arial";
 color: #ffffff;
 }
 footer {
-width: 145%;
+width: 100%;
 background: #b67b78;
 font-family: "arial";
 color: #ffffff;
