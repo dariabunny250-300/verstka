@@ -81,7 +81,7 @@ body {
 	 animation: animation_object linear 50s infinite both;
 }
 .object-2 {
-     background:  url ('https://i.postimg.cc/N0j6Xc43/wolf.png') 0 100% no-repeat;
+     background:  url ('https://i.ibb.co/yhWnHzy/wolf.png') 0 100% no-repeat;
 	 z-index: 1;
 	 position: absolute;
 	 bottom: 0px; 
@@ -99,7 +99,7 @@ body {
 background-position: 2765px 100%;
 }
 100% {
-    background-position: 550px 100%;
+    background-position: 600px 100%;
   }
 }
 @keyframes animation_object {
