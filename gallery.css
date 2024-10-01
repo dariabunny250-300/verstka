@@ -42,11 +42,11 @@
 }
 .gallery .mainImg i.fa-chevron-left {
   left: 0;
-  color: ##FFE4B2;
+  color: #FFE4B2;
 }
 .gallery .mainImg i.fa-chevron-right {
   right: 0;
-  color: ##FFE4B2;
+  color: #FFE4B2;
 }
 .gallery .thumbnails {
   list-style: none;
@@ -68,6 +68,6 @@
   opacity: .8;
 }
 .gallery .thumbnails li img.active {
-  border-color: ##F4A900;
+  border-color: #F4A900;
   opacity: 1;
 }
