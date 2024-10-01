@@ -1,105 +1,126 @@
+* {
+     box-sizing: border-box;
+}
 body {
-  background-color: transparent; 
-  margin: 0 auto; 
+     background: #1c1e22;
+     color: #fff;
 }
-#wrapper {
-      margin: 0 auto;
-      width: 100%; 
-      text-align: center; 
+.support-warning {
+     background: #ccb11c;
+     color: #000;
+     display: block;
+     font-family: 'Raleway', sans-serif;
+     font-weight: 700;
+     opacity: 0.95;
+     padding: 3rem;
+     position: fixed;
+     text-align: center;
+     top: 0;
+     left: 0;
+     width: 100%;
+     z-index: 5;
 }
-nav {
-    margin: 0 auto;
-    margin-top: 3em;
-    width: 1100px;
+
+.support-warning a {
+     color: inherit;
 }
-nav ul {
-  text-align: left;
-  display: inline;
-  margin: 0;
-  padding: 1em 1em 1em 0;
-  list-style: none;
+.l-grid {
+     display: flex;
+     flex-wrap: wrap;
 }
-nav ul li {
-  display: inline-block;
-  margin-right: .01em;
-  position: relative;
-  padding: 1em 3em;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  transition: all 0.2s;
-  background: #a94444;
+
+.l-grid > .l-grid__item {
+     flex: 1 0 auto;
 }
-nav li a {
-      padding-bottom: 1em;
-      text-decoration: none;
-      cursor: pointer;
-      font-size: 14px;
-      padding: 21px;
-      text-decoration: none;
-      font-weight: bold;
-      font-family: "Arial";
-      color: #ffffff; 
+
+.l-grid--4x4 > .l-grid__item {
+     width: 25%;
 }
-nav ul li:hover {
-  background: #d79c9c;
+
+@supports(display: grid) {
+     .support-warning {
+          display: none;
+     }
+	  .l-grid--4x4 > .l-grid__item {
+         width: auto;
+     }
+     
+     .l-grid {
+          display: grid;
+     }
 }
-nav ul li ul {
-  padding: 0;
-  position: absolute;
-  top: 3.5em;
-  left: 0;
-  width: 16em;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-  display: none;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transiton: opacity 0.2s;
-  -moz-transition: opacity 0.2s;
-  -ms-transition: opacity 0.2s;
-  -o-transition: opacity 0.2s;
-  -transition: opacity 0.2s;
+.l-grid--4x4 {
+     grid-template-columns: repeat(4, 1fr);
+     grid-template-rows: repeat(3, minmax(13rem, 1fr));
 }
-nav ul li ul li { 
-  background-color:#d79c9c;
-  display: block; 
-  color: #ffffff;
-  text-shadow: 0 1px 0 #000; 
+
+.l-span-column-2 {
+     grid-column-start: span 2;
 }
-nav ul li ul li:hover { 
-background-color: #c26767;
+
+.l-span-row-2 {
+     grid-row-start: span 2;
 }
-nav ul li:hover ul {
-  display: block;
-  opacity: 1;
-  visibility: visible;
+
+.l-full-height {
+     min-height: 100vh;
 }
-#wrapper-column {
-width: 100%;
-overflow: hidden;
+
+.align-center {
+     align-items: center;
+     justify-content: center;
 }
-.column {
-float:left;
-background: #a94444;
-width: 30%;
-height: 300px;
-font-family: "arial";
+
+.content {
+     padding: 3.5rem;
+     max-width: 400px;
+}
+.heading {
+     font-family: 'Georgia', serif;
+     font-size: 1.5rem;
+     font-weight: 700;
+     line-height: 1.2;
+     margin-bottom: 1rem;
+}
+
+.description {
+     font-family: 'Arial', sans-serif;
+     font-size: 1rem;
+     line-height: 1.5;
+}
+
+.theme-eggshell {
+background: #e4e3d3;
 color: #ffffff;
 }
-.column2 {
-float:left;
-background: #c26767;
-width: 30%;
-height: 300px;
-font-family: "arial";
+
+.img-background {
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+     color: #fff;
+}
+.img-background--forest {
+     background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://raw.githack.com/dariabunny250-300/verstka/main/forest.jpg');
+}
+
+.img-background--moss {
+     background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://raw.githack.com/dariabunny250-300/verstka/main/moss.jpg');
+}
+
+.img-background--mist {
+     background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://raw.githack.com/dariabunny250-300/verstka/main/mist.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     color: #fff;
+}
+
+.theme-asparagus {
+background: #6d9f71;
 color: #ffffff;
 }
-footer {
-width: 100%;
-background: #b67b78;
-font-family: "arial";
+
+.theme-darkspringgreen {
+background: #337357;
 color: #ffffff;
 }
