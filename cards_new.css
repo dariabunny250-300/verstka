@@ -117,7 +117,7 @@ card-container:not(.manual-flip):hover .front {
 }
 .card .header {
   padding: 55px 20px;
-  background: linear-gradient(to top, #ce796b, #e7ad99, #ECC8AF);
+  background: linear-gradient(to top, #440d0f, #ce796b, #F5E9E2);
   color: #ffffff;
   font-size: 11pt;
 }
